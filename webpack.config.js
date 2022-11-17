@@ -7,7 +7,8 @@ const DESTINATION = path.resolve(__dirname, "dist");
 module.exports = {
   context: ROOT,
   entry: {
-    main: "./share_demo/direction.ts"
+    // main: "./share_demo/direction.ts",
+    main: "./main.ts"
   },
   output: {
     filename: "[name].bundle.js",

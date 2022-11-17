@@ -121,5 +121,4 @@ const startGame = () => game$.subscribe({
   }
 });
 
-// startGame();
-click$.pipe(first()).subscribe(startGame);
+startGame();
